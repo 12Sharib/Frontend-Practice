@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Text</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+           
+        }
+
+        h1 {
+            position: relative;
+            border: 2px solid white;
+            padding: 2rem;
+            top: 30%;
+            font-size: 10rem;
+            border-radius: 2rem;
+            box-shadow:whitesmoke 1px 5px 5px 3px;
+            text-shadow: -15px 5px 15px black;
+            color: white;
+            letter-spacing:-0.2em;
+            font-family: 'Anton', Arial, sans-serif;
+            /* transition: all 0.25s ease-out; */
+        }
+        h1:hover{
+            text-shadow: -16px 6px 15px #ced0d3;
+            transition: all 0.5s ease-in;
+            box-shadow: black -5px 10px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>SHADOW</h1>
+    </div>
+</body>
+
+</html>
